@@ -1,0 +1,10 @@
+---
+        - hosts: web
+          tasks:
+          - name: web install
+            yum: name={{ item  }} state=present
+            with_items:
+            - jdk
+            - tcpdump
+            - net-tools
+            - vim

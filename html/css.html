@@ -1,0 +1,146 @@
+<style>
+a.amenu
+{
+border: 5px inset white;
+width: 220px;
+display: block;
+background: url('top.jpg');
+color: white;
+text-align: center;
+text-decoration: none;
+-moz-border-radius: 10px;
+border-radius: 10px 5px;
+box-shadow: 10px 10px 10px grey;
+}
+
+a.amenu:hover
+{
+color: grey;
+width: 225px;
+box-shadow: 10px 10px 10px black;
+}
+p
+{
+display: none;
+border: 2px solid green;
+}
+
+
+div.outer
+{
+border: 2px solid blue;
+width: 800px;
+height: 700px;
+margin-left: 100px;
+}
+
+
+div.left
+{
+border: 2px solid green;
+width: 235px;
+height: 400px;
+margin-top: 100px;
+float: left;
+padding-left: 5px;
+//background: aqua;
+}
+
+div.right
+{
+border: 5px groove white;
+height: 400px;
+width: 535px;
+float: left;
+margin-top: 100px;
+background: url('main1.jpg');
+background-size: 100%  100%;
+border-radius: 30px;
+box-shadow: 5px 5px 5px grey;
+
+}
+
+iframe.myi
+{
+width: 535px;
+height: 350px;
+border: 0px;
+}
+
+div.right-bot
+{
+border: 2px solid red;
+height: 50px;
+border-radius: 0px 0px 30px 30px;
+background: black;
+color: white;
+font-weight: bold;
+text-align: center;
+opacity: 0.6;
+}
+
+body
+{
+background: url('bg1.jpg') repeat-x;
+}
+
+div.top
+{
+border: 2px ridge white;
+position: absolute;
+top: -40px;
+left: 150px;
+width: 700px;
+height: 50px;
+background: url('top.jpg');
+border-radius: 0px 0px 10px 10px;
+
+
+}
+
+div.top:hover
+{
+top: 0px;
+}
+</style>
+
+<body>
+<div class='outer'>
+
+	<div class='left'>
+
+<a class='amenu' href='http://www.lwindia.com'           target='myi'>Cloud</a>
+<a class='amenu' href='http://127.0.0.1:4200' target='myi'>Linux Shell</a>
+<a class='amenu' href=''>Linux</a>
+<a class='amenu' href=''>Openstack</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+<a class='amenu' href=''>Cisco</a>
+
+	</div>
+
+	<div class='right'>
+
+		<iframe class='myi' name='myi'>
+		</iframe>
+
+		<div class='right-bot'>
+		Welcome to LinuxWorld
+		</div>
+	</div>
+
+</div>
+
+
+<div class='top'>
+data top
+</div>
+
+
+</body>
+
